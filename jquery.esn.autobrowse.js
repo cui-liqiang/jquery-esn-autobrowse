@@ -177,7 +177,7 @@ jQuery.fn.autobrowse = function (options)
                 }
                 else
                 {
-                    jQuery.getJSON(options.url(currentOffset), ajaxCallback);
+                    jQuery.get(options.url(currentOffset), ajaxCallback);
                 }
             }
         };
